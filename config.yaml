@@ -1,0 +1,12 @@
+llm:
+  temperature: 0.1  # 低随机，行程规划更准确
+  max_tokens: 4096
+
+memory:
+  max_chat_rounds: 10  # 短期记忆最大对话轮数
+
+tools:
+  # 天气API（免费无密钥）
+  open_meteo_url: https://api.open-meteo.com/v1/forecast
+  # 高德POI
+  amap_url: https://restapi.amap.com/v3/place/text
