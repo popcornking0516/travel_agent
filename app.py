@@ -62,7 +62,7 @@ if not st.session_state.username:
         
         username = st.text_input(
             "", 
-            placeholder="在这里输入你的名字（已有便可直接输入），比如：mm",
+            placeholder="在这里输入你的名字，比如：mm",
             key="name_input",
             label_visibility="collapsed"
         )
